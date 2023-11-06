@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>forms</title>
+</head>
+<body>
+    <div>   
+        <nav class="font">
+          <div >  
+            <img src="./images/logo.jpeg" alt="" />
+           </div>
+           <div class="heading">
+                 <h1>BEGINNERS HTML TUTORIAL</h1>
+           </div>
+            <div>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="intro.html">LEARN</a></li>
+                    <li><a href="About.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="sidebar">
+               
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="intro.html">Introduction</a></li>
+                    <li><a href="basic.html">Basic</a></li>
+                    <li><a href="table.html">Table</a></li>
+                    <li><a href="form.html">form</a></li>
+                    <li><a href="style.html">Style</a></li>
+                </ul>
+            </div>
+        </div>
+       
+    </div>
+    <div class="content">
+        <div class="maincontent">
+            <div class="headintro1"> 
+                <h1>HTML FORMS</h1>
+            </div>
+            <div class="dochtml" id="dochtml">
+                <p>An HTML form is used to collect user input. The user input is most often sent to a server for processing.</p>
+                <div>
+                    <h2 class="subtitle">FORMS EXAMPLE</h2>
+                    <div>
+                        <form action="/action_page.php">
+                            <label for="fname">First name:</label><br>
+                            <input type="text" id="fname" name="fname" placeholder="John"><br>
+                            <label for="lname">Last name:</label><br>
+                            <input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
+                            <div class="button">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form> 
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="elements" id="elements">
+                    <h2 class="subtitle">The &lt;form&gt; Element</h2>
+                    <p>The HTML &lt;form&gt; element is used to create an HTML form for user input:</p>
+                    <div class="formsp">
+                        <p>
+                        &lt;form&gt;<br>
+                        . <br>
+                        form elements <br>
+                        . <br>
+                        &lt;/form&gt;<br>
+                      </p>
+                    </div>
+                    <p>The <span>&lt;form&gt;</span> element is a container for different types of input elements, such as: text fields, checkboxes,<br> radio buttons, submit buttons, etc.</p>
+                </div>
+                <div class="attributes" id="attributes">
+                    <h2 class="subtitle">The &lt;input&gt; Element</h2>
+                    <table>
+                        <tr>
+                            <th class="t1">TYPE</th>
+                            <th>DESCRIPTION</th>
+                        </tr>
+                        <tr>
+                            <td class="t1">&lt;input type="text"&gt;</td>
+                            <td>Displays a single-line text input field</td>
+                        </tr>
+                        <tr>
+                            <td class="t1">&lt;input type="radio"&gt;</td>
+                            <td>Displays a radio button (for selecting one of many choices)</td>
+                        </tr>
+                        <tr>
+                            <td class="t1">&lt;input type="checkbox"&gt;</td>
+                            <td>Displays a checkbox (for selecting zero or more of many choices)</td>
+                        </tr>
+                        <tr>
+                            <td class="t1">&lt;input type="submit"&gt;</td>
+                            <td>Displays a submit button (for submitting the form)</td>
+                        </tr>
+                        <tr>
+                            <td class="t1">&lt;input type="button"&gt;</td>
+                            <td>Displays a clickable button</td>
+                        </tr>
+
+                    </table>
+
+                </div>
+                
+            </div>
+        </div>
+       
+        <div class="shortcut">
+            <ul>
+                <li><a href="#dochtml">Forms Example</a></li>
+                <li><a href="#elements">&lt;form&gt; Element</a></li>
+                <li><a href="#attributes">&lt;input&gt; Element</a></li>
+                <li><a href="table.html">Previous</a></li>
+                <li><a href="style.html">Next</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Basic</title>
+</head>
+<body>
+    <div>   
+        <nav class="font">
+          <div >  
+            <img src="./images/logo.jpeg" alt="" />
+           </div>
+           <div class="heading">
+                 <h1>BEGINNERS HTML TUTORIAL</h1>
+           </div>
+            <div>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="intro.html">LEARN</a></li>
+                    <li><a href="About.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="sidebar">
+               
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="intro.html">Introduction</a></li>
+                    <li><a href="basic.html">Basic</a></li>
+                    <li><a href="table.html">Table</a></li>
+                    <li><a href="form.html">form</a></li>
+                    <li><a href="style.html">Style</a></li>
+                </ul>
+            </div>
+        </div>
+       
+    </div>
+    <div class="content">
+        <div class="maincontent">
+            <div class="headintro1"> 
+                <h1>HTML BASICS</h1>
+            </div>
+            <div class="dochtml" id="dochtml">
+                <h2 class="subtitle">HTML DOCUMENTS</h2>
+                <ul>
+                    <li>All HTML documents must start with a document type declaration: &lt!DOCTYPE <span>&lt;html&gt;</span>.</li>
+                    <li>The HTML document itself begins with <span>&lt;html&gt;</span> and ends with &lt;/html&gt;</span>.</li>
+                    <li>The visible part of the HTML document is between <span>&lt;body&gt;</span> and <span>&lt;/body&gt;</span>.</li>
+                </ul>
+            </div>
+            <div>
+                <div class="elements" id="elements">
+                    <h2 class="subtitle">HTML ELEMENTS</h2>
+                    <table>
+                        <tr>
+                            <th>START TAG</th>
+                            <th>ELEMENT CONTENT</th>
+                            <th>END TAG</th>
+                        </tr>
+                        <tr>
+                            <td>&lt;h1&gt;</td>
+                            <td>Heading tag various from h1 to h6</td>
+                            <td>&lt;/h1&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;p&gt;</td>
+                            <td>Paragraph tag</td>
+                            <td>&lt;/p&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;br&gt;</td>
+                            <td>Break tag</td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;h1&gt;</td>
+                            <td>Heading tag various from h1 to h6</td>
+                            <td>&lt;/h1&gt;</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="attributes" id="attributes">
+                    <h2 class="subtitle">HTML ATTRIBUTES</h2>
+                    <ul>
+                        <li>All HTML elements can have attributes</li>
+                        <li>Attributes provide additional information about elements</li>
+                        <li>Attributes are always specified in the start tag</li>
+                        <li>Attributes usually come in name/value pairs like: name="value"</li>
+                    </ul>
+                    <div class="elements" id="elements">
+                        
+                        <table>
+                            <tr>
+                                <th>ATTRIBUTES</th>
+                                <th>VALUE</th>
+                                <th>DESCRIPTION</th>
+                            </tr>
+                            <tr>
+                                <td><u>download</u></td>
+                                <td>filename</td>
+                                <td>Specifies that the target will be downloaded when a user clicks on the hyperlink</td>
+                            </tr>
+                            <tr>
+                                <td><u>href</u></td>
+                                <td>URL</td>
+                                <td>Specifies the URL of the page the link goes to</td>
+                            </tr>
+                            <tr>
+                                <td><u>hreflang</u></td>
+                                <td>language_code</td>
+                                <td>Specifies the language of the linked document</td>
+                            </tr>
+                            <tr>
+                                <td><u>media</u></td>
+                                <td>media_query</td>
+                                <td>Specifies what media/device the linked document is optimized for</td>
+                            </tr>
+                            <tr>
+                                <td><u>ping</u></td>
+                                <td>list_of_URLs</td>
+                                <td>Specifies a space-separated list of URLs to which, when the link is followed, post requests with the body ping will be sent by the browser (in the background). Typically used for tracking.</td>
+                            </tr>
+                            <tr>
+                                <td><u>type</u></td>
+                                <td>media_type</td>
+                                <td>Specifies the media type of the linked document</td>
+                            </tr>
+                            <tr>
+                                <td><u>rel</u></td>
+                                <td><ul>
+                                    <li>alternate</li>
+                                     <li>author</li>
+                                    <li>bookmark</li>
+                                    <li>external</li>
+                                    <li>help</li>
+                                    <li>license</li>
+                                    <li>next</li>
+                                    <li>nofollow</li>
+                                    <li>noreferrer</li>
+                                    <li>noopener</li>
+                                    <li>prev</li>
+                                    <li>search</li>
+                                    <li>tag</li>
+                                </ul></td>
+                                <td>Specifies the relationship between the current document and the linked document</td>
+                            </tr>
+                            <tr>
+                                <td><u>type</u></td>
+                                <td>media_type</td>
+                                <td>Specifies the media type of the linked document</td>
+                            </tr>
+                            <tr>
+                                <td><u>target</u></td>
+                                <td><ul>
+                                    <li>_blank</li>
+                                    <li>_parent</li>
+                                    <li>_self</li>
+                                    <li>_top</li>
+                                </ul></td>
+                                <td>Specifies the media type of the linked document</td>
+                            </tr>
+                        </table>
+                    </div>
+
+
+                </div>
+                
+            </div>
+        </div>
+       
+        <div class="shortcut">
+            <ul>
+                <li><a href="#dochtml">Html Documents</a></li>
+                <li><a href="#elements">Html Elements</a></li>
+                <li><a href="#attributes">Html Attributes</a></li>
+                <li><a href="intro.html">Previous</a></li>
+                <li><a href="table.html">Next</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

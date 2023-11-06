@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+nav{
+  background-color:  #4b4276;
+  width: 100%;
+  top:0%;
+  position: fixed;
+  right: 0%;
+  left: 0%;
+  
+  z-index: 1;
+
+}
+.font{
+  font-size: 12PX;
+  display: flex;
+  justify-content:space-between;
+}
+.font img{
+  
+    margin-left: 40px;
+    height: 60px;
+    width:60px;
+}
+nav ul{
+padding-right: 40px;
+text-decoration: none;
+}
+nav ul li{
+  margin-top: 23px;
+  display: inline-block;
+  padding: 7px 20px;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  
+ 
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+
+}
+.font .heading{
+  margin-top: 23px;
+  color: white;
+  margin-left: 100px;
+}
+.htimg img{
+  height: 600px;
+  width:700px;
+  margin-top: 100px;
+}
+.D-flex{
+  display: flex;
+}
+.margin1{
+  margin-top: 300px;
+}
+.D-flex .margin1 .button a{
+  margin-top: 40PX;
+  display: inline-block;
+  margin-left: 300px;
+  background: #4b4276;
+  padding:  15px 20px;
+  border-radius: 5px;
+  font-size: large;
+  color:#fff;
+  
+}
+.D-flex .margin1 .button:hover a{
+  background-color: #594f8d;
+  color: white;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+.wrapper .sidebar{
+  width: 200px;
+  height: 100%;
+  background: #4b4276;
+  padding: 30px 0px;
+  position: fixed;
+  margin-top: 35px;
+}
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+.wrapper .sidebar ul li:hover{
+  background-color: #594f8d;
+}
+wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+.content{
+  margin-left: 205px;
+  margin-top: 100px;
+}
+.wthtml ul li{
+  padding: 15px;
+  line-height: .5; 
+}    
+.content img{
+  height: 550px;
+  width:900px;
+}
+.history table,th,td{
+    
+  border-collapse: collapse;
+  text-align: left;
+  padding: 6px;
+  height: 50px;
+  width: 700px;
+} 
+tr:nth-child(even){
+  background-color:#958db9;
+}
+tr:nth-child(odd){
+  background-color:#aaa5c1;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+.headintro{
+  margin-left: 250px;
+}
+.subtitle{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  color: #4b4276;
+}
+.maincontent{
+  margin-left: 30px;
+}
+.shortcut{
+  right: 35px;
+  position: fixed;
+  width: 200px;
+  height: 32%;
+  background: #4b4276;
+  position: fixed;
+  
+}
+.shortcut ul li{
+  padding: 15px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+  
+}    
+.shortcut ul li a{
+  color:  #bdb8d7;
+}
+.shortcut ul li:hover{
+  background-color: #594f8d;
+}
+.shortcut ul li:hover a{
+  color: #fff;
+}
+
+/*-----------------------BASIC------------------*/
+.headintro1{
+  margin-left: 350px;
+  color: #4b4276;
+}
+.dochtml ul li{
+  padding: 15px;
+  line-height: .5; 
+}  
+.elements table,th,td{
+    
+  border-collapse: collapse;
+  text-align: center;
+  padding: 6px;
+  height: 50px;
+  width: 800px;
+} 
+tr:nth-child(even){
+  background-color:#958db9;
+}
+tr:nth-child(odd){
+  background-color:#aaa5c1;
+}
+.attributes ul li{
+  padding: 15px;
+  line-height: .5; 
+}  
+
+/*-----------------------TABLES---------------------*/
+.ttaghtml table, th,td{
+  border-collapse: collapse;
+  text-align: left;
+  padding: 6px;
+  height: 50px;
+  width: 700px;
+
+}
+.ttaghtml .tg{
+  width: 120px;
+}
+.egtable{
+  background-color: #958db9;
+  width: 500px;
+  padding-top: 20px;
+  
+}
+.example table, th, td{
+  border-collapse: collapse;
+  text-align: left;
+  padding: 6px;
+  height: 50px;
+  width: 700px;
+}
+/*-----------------------forms---------------------*/
+p{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+form{
+  margin-left: 12px;
+  font-size: 22px;
+  
+}
+form input{
+  width: 200px;
+  height: 25px;
+  border-color: #4b4276;
+  
+}
+.attributes table, th,td{
+  border-collapse: collapse;
+  text-align: left;
+  padding: 6px;
+  height: 50px;
+  width: 700px;
+
+}
+.formsp p{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 12px;
+  background-color: #594f8d;
+  width: 220px;
+  padding: 20px;
+}
+.t1{
+  width:220px
+}
+span{
+  color: #594f8d;
+}
+.homedflex{
+  display: flex;
+}
+.button1 a{
+ background-color: #594f8d;
+ padding: 10px 20px;
+ text-decoration: none;
+ color: #fff;
+ border-radius: 20px;
+
+}
+.button1 a:hover{
+  background-color: #bdb8d7;
+  color: black;
+}
+.button1{
+  margin-top: 30px;
+  margin-left: 270px;
+}
